@@ -2,13 +2,32 @@
 
 import React from "react";
 import '@/components/TrendingSlider';
-import styles from "@/app/intro/intro.module.css";
+import styles from "@/app/inicio/intro.module.css";
 import TrendingSlider from "@/components/TrendingSlider";
 
 
  function introducao() {
    return(
     <>
+    <header className={styles.header}>
+                <h1 className={styles.h1}>PokeDex</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link href="/info1">Informações 1</Link>
+                        </li>
+                        <li>
+                            <Link href="/info2">Informações 2</Link>
+                        </li>
+                        <li>
+                            <Link href="/equipe">Equipe</Link>
+                        </li>
+                        <li>
+                            <Link href="/pokemon">Pokemon</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
     <TrendingSlider></TrendingSlider>
     
       <div className={styles.tudo}>

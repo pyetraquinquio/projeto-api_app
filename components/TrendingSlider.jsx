@@ -4,6 +4,7 @@ import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import "./TrendingSlider.css";
 
+
 const TrendingSlider = () => {
   const filteredItems = [
     {
