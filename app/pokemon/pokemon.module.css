@@ -1,4 +1,32 @@
-.header {
+.all{
     background-color: black;
+    height: 750px;
+}
+
+.header {
+    background-color: #791b1b;
     color:white;
+    font-family: 'Georgia';
+}
+
+.texto1{
+    background-color:  #791b1b;;
+    color: white;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 350px;
+    font-family: 'Georgia';
+}
+
+.texto2{
+    background-color:  #791b1b;;
+    color: white;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 350px;
+    font-family: 'Georgia';
 }
