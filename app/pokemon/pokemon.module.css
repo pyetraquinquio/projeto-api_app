@@ -40,6 +40,7 @@
 .img1{
 display: flex;
 justify-content: center;
+
 }
 
     
@@ -73,6 +74,32 @@ justify-content: center;
     margin-right: 10%;
 }
 
-.iframe {
+.iframee {
     text-align: center;
+    /* position: relative; */
+}
+
+/* div.iframee > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 80%;
+    height: 80%;
+} */
+
+@media only screen and (max-width:700px) {
+    .img1 {
+       text-align: center;
+    
+    }
+
+    .divv {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .anime {
+        margin-top: 0%;
+        
+    }
 }
