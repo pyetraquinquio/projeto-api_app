@@ -34,6 +34,7 @@
     height: 50px;
     margin-left: 330px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 45px;
 }
 
 .img1{
@@ -41,12 +42,14 @@ display: flex;
 justify-content: center;
 }
 
+    
 .divv {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    
 }
 
 .tudo {
@@ -55,6 +58,7 @@ justify-content: center;
     margin-right: 10%;
     padding: 2rem;
     color: white;
+    border-radius: 20px;
 }
 
 .img {
@@ -62,6 +66,7 @@ justify-content: center;
 }
 
 .anime {
+    border-radius: 45px;
     background-color:  #7B1834;
     padding: 2rem;
     margin-left: 10%;
