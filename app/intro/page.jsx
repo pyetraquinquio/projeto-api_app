@@ -2,6 +2,7 @@
 
 import React from "react";
 import '@/components/TrendingSlider';
+import Link from "next/link";
 import styles from "@/app/intro/intro.module.css";
 import TrendingSlider from "@/components/TrendingSlider";
 
@@ -9,6 +10,29 @@ import TrendingSlider from "@/components/TrendingSlider";
  function introducao() {
    return(
     <>
+
+<div>
+            <header className={styles.header}>
+                <h1 className={styles.h1}>PokeDex</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link href="/inicio">Início</Link>
+                        </li>
+                        <li>
+                            <Link href="/info1">Informações 1</Link>
+                        </li>
+                        <li>
+                            <Link href="/info2">Informações 2</Link>
+                        </li>
+                        <li>
+                            <Link href="/equipe">Equipe</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+    </div>
+            
     <TrendingSlider></TrendingSlider>
     
       <div className={styles.tudo}>
@@ -37,11 +61,18 @@ import TrendingSlider from "@/components/TrendingSlider";
           </p>
 
       </section>
+    </div>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+
+    <footer>
+            <p>Grupo 05</p>
+            <p>SESI/SENAI</p>
+            <p>2023</p>
+        </footer> 
 
 
-
-      
-    </div> 
   </>
   
   )

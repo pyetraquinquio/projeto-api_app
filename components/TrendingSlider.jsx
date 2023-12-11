@@ -1,20 +1,19 @@
 
 "use client"; // for nextjs 13.4 user
 import React from "react";
-import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import "./TrendingSlider.css";
 
 const TrendingSlider = () => {
   const filteredItems = [
     {
         id: 1,
-        img: "/slide/poke1.jpg",
+        img: "/slide/poke2.jpg",
         
         
       },
       {
         id: 2,
-        img: "/slide/poke2.jpg",
+        img: "/slide/poke5.jpg",
         
   
       },
@@ -32,7 +31,7 @@ const TrendingSlider = () => {
       },
       {
         id: 5,
-        img: "/slide/poke5.jpg",
+        img: "/slide/poke1.jpg",
        
   
       }
