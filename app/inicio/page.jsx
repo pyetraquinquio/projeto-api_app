@@ -2,14 +2,16 @@
 
 import React from "react";
 import '@/components/TrendingSlider';
-import styles from "@/app/inicio/intro.module.css";
+import style from "@/app/inicio/intro.module.css";
+import styles from "@/app/equipe/equipe.module.css";
+import Link from "next/link";
 import TrendingSlider from "@/components/TrendingSlider";
 
 
  function introducao() {
    return(
     <>
-    <header className={styles.header}>
+            <header className={styles.header}>
                 <h1 className={styles.h1}>PokeDex</h1>
                 <nav>
                     <ul>
@@ -28,13 +30,14 @@ import TrendingSlider from "@/components/TrendingSlider";
                     </ul>
                 </nav>
             </header>
+            
     <TrendingSlider></TrendingSlider>
-    
-      <div className={styles.tudo}>
-      <section className={styles.img_fundo}>
+    <br></br>
+      <div className={style.tudo}>
+      <section className={style.img_fundo}>
 
 
-          <p className={styles.fundo_texto}>O PokéAPI V1 foi criado por Paull Hallet como um projeto de fim de semana, 
+          <p>O PokéAPI V1 foi criado por Paull Hallet como um projeto de fim de semana, 
           mas rapidamente se tornou mais do que um trabalho de fim de semana. 
           Em Dezembor de 2014, Paul descontinuou a V1 em favor de trabalhar na V2.
            O site fornece uma interface API RESTful para objetos altamente detalhados.
@@ -45,10 +48,10 @@ import TrendingSlider from "@/components/TrendingSlider";
       <br></br>
       <br></br>
 
-      <section className={styles.img_fundo}>
+      <section className={style.img_fundo}>
 
 
-          <p className={styles.fundo_texto}>A Pokedéx é um dos itens mais importantes de um Treinador Pokemon, 
+          <p className={style.fundo_texto}>A Pokedéx é um dos itens mais importantes de um Treinador Pokemon, 
           com ela é possível saber diversas informações sobre as criaturas,
            sobre seu tipo e também algumas curiosidades importantes.
             Apesar de se manter como uma grande ferramenta para catalogar todos os monstrinhos da região,
@@ -56,11 +59,18 @@ import TrendingSlider from "@/components/TrendingSlider";
           </p>
 
       </section>
+    </div>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+
+    <footer>
+            <p>Grupo 05</p>
+            <p>SESI/SENAI</p>
+            <p>2023</p>
+        </footer> 
 
 
-
-      
-    </div> 
   </>
   
   )
