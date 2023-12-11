@@ -20,13 +20,26 @@
     font-family: 'Georgia';
 }
 
-.texto2{
+.title2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color:  #791b1b;;
     color: white;
-    text-align: center;
     width: 800px;
-    height: 200px;
+    height: 100px;
+    margin-left: 350px;
     padding: 20px;
+    font-family: 'Georgia';
+}
+.texto2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #791b1b;;
+    color: white;
+    width: 800px;
+    height: 50px;
     margin-left: 350px;
     font-family: 'Georgia';
 }

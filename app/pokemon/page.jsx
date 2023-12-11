@@ -22,12 +22,21 @@ A série de anime Pocket Monsters(1997), conta com mais de mil episódios dividi
 
 <br></br>
 
-<div className={styles.texto2}>
-                    <h3>Personagens mais conhecidos do anime</h3>
-                    <br></br>
-                    <ul>PIKACHU SATOSHI KOJIROU SERENA</ul>
-                    <ul>MEWTWO NYARTH GRENINJA EEVEE</ul>
-                    <ul>ROWLET BULBASAUR GARDEVOUIR UMBREON</ul>
+<div>
+    <div className={styles.title2}>
+                    <h3>Personagens mais famosos</h3>
+                    </div>
+                    <ul>
+                        <div className={styles.texto2}>
+                    <li>PIKACHU</li> <li>SATOSHI</li> <li>KOJIROU</li> <li>SERENA</li>
+                    </div>
+                    <div className={styles.texto2}>
+                    <li>MEWTWO</li> <li>NYARTH</li> <li>GRENINJA</li> <li>EEVEE</li>
+                    </div>
+                    <div className={styles.texto2}>
+                    <li>ROWLET</li> <li>BULBASAUR</li> <li>GARDEVOUIR</li> <li>UMBREON</li>
+                    </div>
+                    </ul>
 </div>
 
         
