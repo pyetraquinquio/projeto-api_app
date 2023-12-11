@@ -102,7 +102,7 @@ function Pokemon() {
             <br></br>
             <br></br>
 
-            <div className={style.iframe}>
+            <div className={style.iframee}>
             <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/MaWGGLyA7Hc?si=47nTAtlBR8OWNKxz" 
             title="YouTube video player" frameborder="0" 
