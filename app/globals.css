@@ -87,13 +87,8 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+    background-color:  black;
 }
 
 nav {
@@ -136,6 +131,7 @@ footer {
   font-size: x-large;
   padding: 1rem;
   background-color: #7B1834;
+  color: white;
 }
 
 a {
