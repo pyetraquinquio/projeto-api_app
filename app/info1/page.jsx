@@ -2,6 +2,8 @@
 
 import React, {useState} from "react";
 import Pokemon from "@/components/Pokemon";
+import Link from "next/link";
+import styles from "@/app/equipe/equipe.module.css";
 
 
 const PaginaPokemon = () => {
@@ -27,6 +29,31 @@ const PaginaPokemon = () => {
 
     return (
 
+        <section>
+
+            <header className={styles.header}>
+                <h1 className={styles.h1}>PokeDex</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link href="/inicio">Início</Link>
+                        </li>
+                        <li>
+                            <Link href="/info2">Informações 2</Link>
+                        </li>
+                        <li>
+                            <Link href="/equipe">Equipe</Link>
+                        </li>
+                        <li>
+                            <Link href="/pokemon">Pokemon</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <br></br>
+            <br></br>
+
         <div className="nome">
 
             <br></br>
@@ -51,6 +78,9 @@ const PaginaPokemon = () => {
             {pokemon && <Pokemon pokemon={pokemon} />}
 
         </div>
+        
+
+        </section>
     )
 }
 

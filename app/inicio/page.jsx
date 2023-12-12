@@ -38,6 +38,8 @@ import TrendingSlider from "@/components/TrendingSlider";
       <div className={style.tudo}>
       <section className={style.img_fundo}>
 
+            <h1 className={style.hh1}>PokéAPI</h1>
+            <br></br>
 
           <p>O PokéAPI V1 foi criado por Paull Hallet como um projeto de fim de semana, 
           mas rapidamente se tornou mais do que um trabalho de fim de semana. 
@@ -52,6 +54,8 @@ import TrendingSlider from "@/components/TrendingSlider";
 
       <section className={style.img_fundo}>
 
+      <h1 className={style.hh1}>PokeDéx</h1>
+            <br></br>
 
           <p className={style.fundo_texto}>A Pokedéx é um dos itens mais importantes de um Treinador Pokemon, 
           com ela é possível saber diversas informações sobre as criaturas,
