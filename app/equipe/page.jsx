@@ -53,7 +53,7 @@ export default function PagEquipe() {
                 <br></br>
                 <p>17 anos</p>
                 <br></br>
-                <p>Tempo de estudo no SESI: 9 meses</p>
+                <p>Tempo de estudo no SESI: 11 meses</p>
                 <br></br>
                 <p>Sub-Líder</p>
             </div>
@@ -66,7 +66,7 @@ export default function PagEquipe() {
                 <br></br>
                 <p>17 anos</p>
                 <br></br>
-                <p>Tempo de estudo no SESI: 9 meses</p>
+                <p>Tempo de estudo no SESI: 11 meses</p>
             </div>
             <div className={styles.imagem}>
                 <Image src="/grupo/maria.png" width={350} height={350}/>
