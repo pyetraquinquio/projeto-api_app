@@ -1,0 +1,156 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/equipe/equipe.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.equipe_div__lsVRJ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.equipe_text__iKiP3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+.equipe_imagem__Pz_dO {
+    border: 15px solid #7B1834;
+}
+
+.equipe_h1__fuF7n {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: white;
+}
+
+.equipe_header__POE2p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #7B1834;
+    padding: 1rem;
+}
+
+@media only screen and (max-width:700px) {
+    .equipe_h1__fuF7n {
+        font-size: x-large;
+        margin-top: 8%;
+    }
+    
+    .equipe_div__lsVRJ {
+        flex-direction: column;
+    }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/pokemon/pokemon.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.pokemon_header__qKw_p {
+    background-color: #7B1834;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pokemon_title1__F0qXY{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.pokemon_texto1__U82Mn{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.pokemon_title2__2BlQD{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.pokemon_texto2__lNfFO{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #7B1834;
+    color: white;
+    width: 850px;
+    height: 50px;
+    margin-left: 330px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 45px;
+}
+
+.pokemon_img1__IWM6U{
+    display: flex;
+    justify-content: center;
+    
+}
+
+    
+.pokemon_divv__G3slf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+}
+
+.pokemon_tudo__nsDmA {
+    background-color: #7B1834;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.pokemon_img__tyf3z {
+    text-align: center;
+}
+
+.pokemon_anime__xXpl5 {
+    border-radius: 45px;
+    background-color:  #7B1834;
+    padding: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pokemon_iframee__zI0jN {
+    text-align: center;
+    /* position: relative; */
+}
+
+
+/* div.iframee > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 80%;
+    height: 80%;
+} */
+
+@media only screen and (max-width:700px) {
+    /* .img1 {
+        width: 2%;
+        height: 2%;
+        justify-content:baseline;
+        margin-left: 55%;
+        margin-right: 90%;
+    } */
+    .pokemon_divv__G3slf {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .img {
+        position: absolute;
+        visibility: hidden;
+    } */
+}
