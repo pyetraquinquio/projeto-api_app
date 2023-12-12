@@ -21,9 +21,15 @@ const Pokemon = ({pokemon}) => {
             <p><strong>Ability:</strong> {pokemon.abilities[0].ability.name}</p>
             </div>
 
-
-
             </section>
+
+            <br></br>
+        <br></br>
+        <footer>
+            <p>Grupo 05</p>
+            <p>SESI/SENAI</p>
+            <p>2023</p>
+        </footer>
         
         </div>
     )
