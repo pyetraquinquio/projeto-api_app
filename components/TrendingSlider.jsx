@@ -3,6 +3,7 @@
 import React from "react";
 import "./TrendingSlider.css";
 
+
 const TrendingSlider = () => {
   const filteredItems = [
     {

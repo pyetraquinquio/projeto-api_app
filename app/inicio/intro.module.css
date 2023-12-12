@@ -1,4 +1,4 @@
-.header {
+/* .header {
     background-color: #7B1834;
     color:white;
     display: flex;
@@ -7,24 +7,22 @@
     padding: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-}
+} */
 
 
 .img_fundo{
     background-color: rgb(102, 17, 17);
     color: white ;
     border-radius: 12px;
-    padding: 5px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 35% ;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2vw;
-    margin-left: 35%;
-    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
