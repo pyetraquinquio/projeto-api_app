@@ -5,7 +5,6 @@ import '@/components/TrendingSlider';
 import style from "@/app/inicio/intro.module.css";
 import styles from "@/app/equipe/equipe.module.css";
 import Link from "next/link";
-import styles from "@/app/inicio/intro.module.css";
 import TrendingSlider from "@/components/TrendingSlider";
 
 
