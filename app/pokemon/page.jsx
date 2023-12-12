@@ -23,7 +23,7 @@ function Pokemon() {
                             <Link href="/equipe">Equipe</Link>
                         </li>
                         <li>
-                            <Link href="/pokemon">Pokemon</Link>
+                            <Link href="/inicio">Início</Link>
                         </li>
                     </ul>
                 </nav>
