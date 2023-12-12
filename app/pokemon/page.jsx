@@ -55,7 +55,7 @@ function Pokemon() {
             <br></br>
 
             <div className={style.img}>
-                <Image src="/pokemon1.png" width={1400} height={500}></Image>
+                <Image src="/po.avif" width={1300} height={600}></Image>
             </div>
 
             <br></br>

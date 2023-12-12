@@ -145,7 +145,52 @@ a {
   }
 }
 
+.nome {
+  text-align: center;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2%;
+  background-color: black;
+  color: white;
+}
+
+.input {
+  width: 200px;
+  height: 25px;
+  background-color:#7B1834;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+}
+
+.title{
+  background-color:#7B1834; 
+  color: white;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.grupo{
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #7B1834;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
 @media only screen and (max-width:700px) {
+  .nome{
+    font-size:medium;
+  }
   html {
     color-scheme: dark;
   }
