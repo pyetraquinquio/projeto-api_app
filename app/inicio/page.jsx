@@ -3,7 +3,7 @@
 import React from "react";
 import '@/components/TrendingSlider';
 import Link from "next/link";
-import styles from "@/app/intro/intro.module.css";
+import styles from "@/app/inicio/intro.module.css";
 import TrendingSlider from "@/components/TrendingSlider";
 
 
@@ -16,9 +16,7 @@ import TrendingSlider from "@/components/TrendingSlider";
                 <h1 className={styles.h1}>PokeDex</h1>
                 <nav>
                     <ul>
-                        <li>
-                            <Link href="/inicio">Início</Link>
-                        </li>
+                    
                         <li>
                             <Link href="/info1">Informações 1</Link>
                         </li>
@@ -27,6 +25,9 @@ import TrendingSlider from "@/components/TrendingSlider";
                         </li>
                         <li>
                             <Link href="/equipe">Equipe</Link>
+                        </li>
+                        <li>
+                            <Link href="/pokemon">Pokemon</Link>
                         </li>
                     </ul>
                 </nav>

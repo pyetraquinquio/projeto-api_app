@@ -4,14 +4,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     
 }
 
 
 .img_fundo{
-    background-color: rgb(102, 17, 17);
+    background-color: #7B1834;
     color: white ;
     border-radius: 12px;
     padding: 5px;
