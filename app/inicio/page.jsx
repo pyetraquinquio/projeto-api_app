@@ -5,6 +5,10 @@ import '@/components/TrendingSlider';
 import style from "@/app/inicio/intro.module.css";
 import styles from "@/app/equipe/equipe.module.css";
 import Link from "next/link";
+<<<<<<< HEAD
+=======
+import styles from "@/app/inicio/intro.module.css";
+>>>>>>> fedee3b79d58770d5955c9bcc9f4696e7d1b0b20
 import TrendingSlider from "@/components/TrendingSlider";
 
 
@@ -15,6 +19,10 @@ import TrendingSlider from "@/components/TrendingSlider";
                 <h1 className={styles.h1}>PokeDex</h1>
                 <nav>
                     <ul>
+<<<<<<< HEAD
+=======
+                    
+>>>>>>> fedee3b79d58770d5955c9bcc9f4696e7d1b0b20
                         <li>
                             <Link href="/info1">Informações 1</Link>
                         </li>
