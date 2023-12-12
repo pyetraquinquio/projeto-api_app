@@ -40,6 +40,7 @@
 .img1{
     display: flex;
     justify-content: center;
+    
 }
 
     
@@ -88,15 +89,20 @@
 } */
 
 @media only screen and (max-width:700px) {
-    .img1 {
+    /* .img1 {
         width: 2%;
         height: 2%;
         justify-content:baseline;
         margin-left: 55%;
         margin-right: 90%;
-    }
+    } */
     .divv {
         flex-direction: column;
         text-align: center;
     }
+
+    /* .img {
+        position: absolute;
+        visibility: hidden;
+    } */
 }
