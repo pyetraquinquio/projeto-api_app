@@ -3,7 +3,7 @@
 import style from "../pokemon/pokemon.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "@/app/equipe/equipe.module.css";
+import styles from "../equipe/equipe.module.css";
 
 function Pokemon() {
     return (

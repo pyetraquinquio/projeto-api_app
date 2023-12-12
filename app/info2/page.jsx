@@ -1,9 +1,9 @@
 'use client'
 
 import React, {useState} from "react";
-import Pokemon from "@/components/Pokemon2";
+import Pokemon from "../../components/Pokemon2";
 import Link from "next/link";
-import styles from "@/app/equipe/equipe.module.css";
+import styles from "../equipe/equipe.module.css";
 
 const PaginaPokemon = () => {
     const [pokemonId, setPokemonId] = useState(1);

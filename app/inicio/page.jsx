@@ -1,11 +1,11 @@
 "use client"; // for nextjs 13.4 user
 
 import React from "react";
-import '@/components/TrendingSlider';
-import style from "@/app/inicio/intro.module.css";
-import styles from "@/app/equipe/equipe.module.css";
+import "../../components/TrendingSlider";
+import style from "../inicio/intro.module.css";
+import styles from "../equipe/equipe.module.css";
 import Link from "next/link";
-import TrendingSlider from "@/components/TrendingSlider";
+import TrendingSlider from "../../components/TrendingSlider";
 
 
  function introducao() {

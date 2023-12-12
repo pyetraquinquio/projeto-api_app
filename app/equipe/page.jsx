@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import styles from "@/app/equipe/equipe.module.css";
+import styles from "../equipe/equipe.module.css";
 import Link from "next/link";
 
 export default function PagEquipe() {
