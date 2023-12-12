@@ -2,6 +2,8 @@
 
 import React, {useState} from "react";
 import Pokemon from "@/components/Pokemon2";
+import Link from "next/link";
+import styles from "@/app/equipe/equipe.module.css";
 
 const PaginaPokemon = () => {
     const [pokemonId, setPokemonId] = useState(1);
@@ -25,6 +27,32 @@ const PaginaPokemon = () => {
     };
 
     return (
+
+        <section>
+
+            <header className={styles.header}>
+                <h1 className={styles.h1}>PokeDex</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link href="/inicio">Início</Link>
+                        </li>
+                        <li>
+                            <Link href="/info1">Informações 1</Link>
+                        </li>
+                        <li>
+                            <Link href="/equipe">Equipe</Link>
+                        </li>
+                        <li>
+                            <Link href="/pokemon">Pokemon</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <br></br>
+            <br></br>
+
         <div className="nome">
 
            <br></br>
@@ -49,6 +77,15 @@ const PaginaPokemon = () => {
             {pokemon && <Pokemon pokemon={pokemon} />}
 
         </div>
+        <br></br>
+        <br></br>
+        <footer>
+            <p>Grupo 05</p>
+            <p>SESI/SENAI</p>
+            <p>2023</p>
+        </footer>
+
+        </section>
     )
 }
 
