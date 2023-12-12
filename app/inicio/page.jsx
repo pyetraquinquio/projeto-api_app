@@ -14,6 +14,7 @@ import TrendingSlider from "@/components/TrendingSlider";
                 <h1 className={styles.h1}>PokeDex</h1>
                 <nav>
                     <ul>
+                    
                         <li>
                             <Link href="/info1">Informações 1</Link>
                         </li>

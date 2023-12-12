@@ -14,9 +14,6 @@ function Pokemon() {
                 <nav>
                     <ul>
                         <li>
-                            <Link href="/inicio">Início</Link>
-                        </li>
-                        <li>
                             <Link href="/info1">Informações 1</Link>
                         </li>
                         <li>
@@ -24,6 +21,9 @@ function Pokemon() {
                         </li>
                         <li>
                             <Link href="/equipe">Equipe</Link>
+                        </li>
+                        <li>
+                            <Link href="/pokemon">Pokemon</Link>
                         </li>
                     </ul>
                 </nav>
