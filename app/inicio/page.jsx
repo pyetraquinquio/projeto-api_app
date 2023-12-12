@@ -1,6 +1,7 @@
 "use client"; // for nextjs 13.4 user
 
 import React from "react";
+import '@/components/TrendingSlider';
 import style from "@/app/inicio/intro.module.css";
 import styles from "@/app/equipe/equipe.module.css";
 import Link from "next/link";
@@ -14,7 +15,6 @@ import TrendingSlider from "@/components/TrendingSlider";
                 <h1 className={styles.h1}>PokeDex</h1>
                 <nav>
                     <ul>
-                    
                         <li>
                             <Link href="/info1">Informações 1</Link>
                         </li>
@@ -33,7 +33,7 @@ import TrendingSlider from "@/components/TrendingSlider";
             
     <TrendingSlider></TrendingSlider>
     <br></br>
-      <div>
+      <div className={style.tudo}>
       <section className={style.img_fundo}>
 
             <h1 className={style.hh1}>PokéAPI</h1>
