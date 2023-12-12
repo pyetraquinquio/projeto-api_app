@@ -40,7 +40,7 @@ function Pokemon() {
 
             <div className={style.anime}>
             <div className={style.title1}>
-                <h3>Anime Pokégitmon</h3>
+                <h3>Anime Pokémon</h3>
             </div>
             <br></br>
             <div className={style.texto1}>
